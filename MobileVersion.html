@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archiveone</title>
+  <script>
+  // Detect if the user is on a desktop or laptop device
+  if (!/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    window.location.href = "Pcversion.html"; 
+  }
+</script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f7;
+      color: #1c1c1e;
+    }
+
+    .app-header {
+      background: white;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .app-header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      background: #1d1d1f;
+      object-fit: cover;
+    }
+
+    .app-info h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .app-info p {
+      font-size: 0.95rem;
+      color: #6e6e73;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 0.8rem;
+      background: #0071e3;
+      color: white;
+      padding: 0.6rem 1rem;
+      border-radius: 10px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .rating-section {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #3a3a3c;
+    }
+
+    .rating-section div {
+      text-align: center;
+    }
+
+    .screenshots {
+      background: white;
+      margin-top: 0.5rem;
+      padding: 1rem;
+    }
+
+    .screenshots h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .screenshot-scroll {
+      display: flex;
+      gap: 1rem;
+      overflow-x: scroll;
+      padding-bottom: 1rem;
+    }
+
+    .screenshot-scroll img {
+      width: 240px;
+      height: 480px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .description {
+      background: white;
+      padding: 1.5rem 1rem;
+      margin-top: 0.5rem;
+    }
+
+    .description h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .description p {
+      color: #3a3a3c;
+      line-height: 1.5;
+      font-size: 0.95rem;
+    }
+
+    
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8e8e93;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <section class="app-header">
+    <img src="images/Mobile.png" alt="Archiveone">
+    <div class="app-info">
+      <h1>Archiveone</h1>
+      <p>Explore Digital History</p>
+      <a href="#" class="download-btn">GET</a>
+    </div>
+  </section>
+
+  <section class="rating-section">
+    <div>
+      <h4>4.8 ★</h4>
+      <p>10 Ratings</p>
+    </div>
+    <div>
+      <h4>12+</h4>
+      <p>Age</p>
+    </div>
+    <div>
+      <h4>#1</h4>
+      <p>Reference</p>
+    </div>
+  </section>
+
+  <section class="screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshot-scroll">
+      <img src="images/230x499bb.png" alt="App Screenshot 1">
+      <img src="images/2.png" alt="App Screenshot 2">
+      <img src="images/3.png" alt="App Screenshot 3">
+    </div>
+  </section>
+
+  <section class="description">
+    <h3>About this App</h3>
+    <p>The Archiveone app lets you explore and preserve the world's digital history. Access millions of books, videos, and audio recordings in one seamless experience. Download content offline, read with integrated viewers, and relive history like never before.</p>
+  </section>
+
+  
+
+  <footer>
+    <p>© 2025 Archiveone App. All rights reserved.</p>
+  </footer>
+</body>
+</html>
